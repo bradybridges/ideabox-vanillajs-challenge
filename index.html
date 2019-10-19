@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>IdeaBox - Challenge</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <h1>IdeaBox</h1>
+    <section id='filter-container'>
+      <h3>Filter By</h3>
+      <div id='filter-btns-container'>
+        <button id='filter-by-starred-btn' class='filter-btn'>Starred Ideas</button>
+        <button id='filter-by-swill-btn' class='filter-btn'>Swill Quality</button>
+        <button id='filter-by-plausible-btn' class='filter-btn'>Plausible Quality</button>
+        <button id='filter-by-genius-btn' class='filter-btn'>Genius Quality</button>
+      </div>
+    </section>
+    <div id='search-bar-container'>
+      <input id='search-input' type="text" name="search-input" placeholder="Search Ideas" />
+    </div>
+  </nav>
+  <section id="new-idea-form">
+    <label for="title-input">Title</label>
+    <input id='title-input' name="title-input" type="text" placeholder="Title" />
+    <label for="body-input">Body</label>
+    <textarea id="idea-input" rows="4" cols="50" name="body-input">
+      
+    </textarea>
+    <button id="save-idea-btn" disabled>Save Idea</button>
+  </section>
+  <section id="ideas-container">
+
+  </section>
+  <script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
