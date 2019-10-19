@@ -7,7 +7,7 @@
   
 ## Screenshot
 
-( )[https://github.com/bradybridges/ideabox-vanillajs-challenge/blob/master/images/screencapture-bradybridges-github-io-ideabox-vanillajs-challenge-2019-10-19-16_25_24.png]
+![screenshot](https://github.com/bradybridges/ideabox-vanillajs-challenge/blob/master/images/screencapture-bradybridges-github-io-ideabox-vanillajs-challenge-2019-10-19-16_25_24.png)
   
 
 
